@@ -1,0 +1,17 @@
+name: stock_trading
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - requests
+  - numpy
+  - scipy
+  - statsmodels
+  - matplotlib
+  - pip
+  - pip:
+    - schedule
+    - slack_sdk
+    - tabulate
